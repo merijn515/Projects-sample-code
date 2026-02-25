@@ -19,6 +19,8 @@ public class BodyOrbit : MonoBehaviour
         moon
     }
 
+    // |"UniversalValues" is a singleton
+
     void Start()
     {// calculate number of degrees per day
         degreesPerDay = 360 / yearInEarthDays;
